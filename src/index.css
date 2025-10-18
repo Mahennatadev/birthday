@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+body {
+  @apply bg-ink text-white;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
